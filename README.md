@@ -19,6 +19,11 @@ Trove scrapes data from business systems that lack good APIs, normalizes it, and
 - Playwright (browser automation)
 - Clawdbot skill for queries
 
+## Documentation
+
+- [Data Schema](docs/schema.md) — JSON/SQL schema, class levels, party format
+- [Query Patterns](docs/queries.md) — jq/SQL examples, display conventions
+
 ## Usage
 
 ```bash
@@ -31,6 +36,10 @@ trove query "what classes have trials this week"
 
 Or via Clawdbot:
 > "Hey Todd, what classes have openings this Saturday?"
+
+## Data Location
+
+Currently stored in `~/clawd/reports/` (operational data). Will move to `data/` once ingestion is automated.
 
 ## License
 
